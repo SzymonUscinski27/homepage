@@ -1,0 +1,18 @@
+.button {
+    background: linear-gradient(to right, #485563, #29323c);
+    color: gold;
+    cursor: pointer;
+    font-size: 25px;
+    margin: 20px 10px 20px 10px;
+    border: 3px solid gold;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.button:hover {
+    background: linear-gradient(to right, #576677, #394653);
+}
+
+.button:active {
+    background: linear-gradient(to right, #5e6d80, #4a5a6b);
+}

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" />
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/aside.css" rel="stylesheet">
+    <link href="css/button.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/list.css" rel="stylesheet">
+    <link href="css/paragraph.css" rel="stylesheet">
+    <link href="css/section.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <link href="css/container.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+    <title>Szymon Uściński - gitarzysta fingerstyle</title>
+</head>
+
+<body class="body">
+    <header class="header">
+        <h1>Cześć!</h1>
+    </header>
+    <nav>
+        <ul class="list">
+            <li><a class="list__link" href="#o-mnie">O mnie</a></li>
+            <li><a class="list__link" href="#hobby">Zainteresowania</a></li>
+            <li><a class="list__link" href="#plany">Plany na przyszłość</a></li>
+        </ul>
+    </nav>
+    <p>
+        <button class="button js-changeBackgroundButton">Zmień tło na jaśniejsze</button>
+    </p>
+    <main>
+        <section class="section" id="o-mnie">
+            <h2 class="section__header">O mnie</h2>
+            <img class="section__image" src="images/szymon.jpg" alt="Szymon Uściński">
+            <p class="paragraph">Mam na imię Szymon i jestem absolwentem Turystyki i Rekreacji o specjalizacji -
+                technologie informacyjne i komunikacyjne w turystyce. W czasie studiów magisterskich dzięki wybranej
+                specjalizacji miałem okazję poznać podstawy <em>HTML-a, CSS-a i Wordpressa</em>, które poznawaliśmy na
+                potrzeby
+                przyszłego tworzenia stron dla turystyki. Ponadto pojawiały się zajęcia dotyczące graficznego
+                projektowania aplikacji mobilnych dla turystyki. To wszystko bardzo mnie zainspirowało, nasunęło
+                wiele wniosków, przemyśleń, aż znalazłem się w <strong class="paragraph__important">YouCode</strong>, by
+                spróbować
+                swoich sił we Frontendzie.
+            </p>
+        </section>
+        <section class="section" id="hobby">
+            <h2 class=section__header>Zainteresowania</h2>
+            <p class="paragraph"> Od nieco ponad <strong class="paragraph__important">10 lat</strong> gram na gitarze
+                elektroakustycznej stale rozwijając swoje umiejętności, a od roku próbuję swoich sił w "programowaniu"
+                muzyki w <i>FL Studio</i>. W najbliższej przyszłości planuję również uruchomić swój kanał w serwisie
+                YouTube, gdzie będę mógł prezentować własne covery popularnych utworów w wersji <b>fingerstylowej</b>.
+                Ponadto bardzo lubię spędzać swój wolny czas blisko natury. Kiedy tylko czas i warunki sprzyjają
+                wybieram
+                się w góry lub do parku zebrać myśli, wyciszyć się albo po prostu
+                odpocząć. Z aktywności sportowych najbardziej odpowiadają mi wycieczki rowerowe i pływanie.
+            </p>
+            <div class="tableContainer">
+                <table class="table">
+                    <caption class="table__caption">Moje ulubione utwory muzyczne</caption>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope="col">Wykonawca</th>
+                        <th class="table__cell table__cell--header" scope="col">Utwór</th>
+                        <th class="table__cell table__cell--header" scope="col">Album</th>
+                        <th class="table__cell table__cell--header" scope="col">Rok wydania</th>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope="row">Queen</th>
+                        <td class="table__cell">I want it all</td>
+                        <td class="table__cell">The Miracle</td>
+                        <td class="table__cell">1989</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope="row">Imagine Dragons</th>
+                        <td class="table__cell">Birds</td>
+                        <td class="table__cell">Evolve</td>
+                        <td class="table__cell">2017</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope="row">Kodaline</th>
+                        <td class="table__cell">Worth it</td>
+                        <td class="table__cell">Politics of Living</td>
+                        <td class="table__cell">2018</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope="row">Beast in Black</th>
+                        <td class="table__cell">Oceandeep</td>
+                        <td class="table__cell">From hell with love</td>
+                        <td class="table__cell">2019</td>
+                    </tr>
+                </table>
+            </div>
+            <p>
+                <img class="section__image" src="images/gitara.jpg" alt="gitara akustyczna">
+            </p>
+        </section>
+        <section class="section" id="plany">
+            <h2 class="section__header">Plany na przyszłość</h2>
+            <p class="paragraph js-hiddenParagraph">
+                W najbliższej przyszłości chciałbym w pełni ukończyć kurs na Frontend Developera prowadzonego przez
+                YouCode. Z kolei w kwestii nieco dalszych planów z racji pasji do podróżowania chciałbym zwiedzić
+                Australię lub Azję jako kolejny kontynent do podbicia 😜.
+            </p>
+            <p>
+                <button class="button js-showDescriptionButton">Ukryj opis</button>
+            </p>
+            <hr>
+        </section>
+        <aside class="aside">
+            <p class="paragraph">Polecane utwory:<br><span class="paragraph__addLinkInfo">(linki otwierają
+                    się w nowej
+                    karcie)</span>
+            </p>
+            <ul class="list">
+                <li><a class="list__link" rel="noreferrer noopener" target="_blank"
+                        href="https://www.youtube.com/watch?v=9JEYkN4Yrjw">Beast in Black - Oceandeep</a></li>
+                <li><a class="list__link" rel="noreferrer noopener" target="_blank"
+                        href="https://www.youtube.com/watch?v=vOXZkm9p_zY">Imagine Dragons - Birds</a></li>
+                <li><a class="list__link" rel="noreferrer noopener" target="_blank"
+                        href="https://www.youtube.com/watch?v=CCS5aql5I6k">Kodaline - Worth it</a></li>
+            </ul>
+        </aside>
+    </main>
+    <p>
+        <button class="button js-removeEverythingButton">Do zobaczenia!</button>
+    </p>
+    <footer class="footer">&copy; Szymon Uściński 2021</footer>
+</body>
+
+</html>

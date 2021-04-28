@@ -1,0 +1,20 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::before, ::after {
+    box-sizing: inherit;
+    scroll-behavior: smooth;
+}
+
+.body {
+    margin: 0 auto;
+    max-width: 1000px;
+    background-color: rgba(34, 34, 34, 0.86);
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+
+.body__secondBackground {
+    background: rgba(34, 34, 34, 0.76);
+}
