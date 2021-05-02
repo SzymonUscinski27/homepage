@@ -1,5 +1,7 @@
 {
-    console.log("Cześć, miło mi powitać Cię na moejej stronie. Życzę powodzenia w kursie! :)");
+    const welcome = () => {
+        console.log("Cześć, miło mi powitać Cię na moejej stronie. Życzę powodzenia w kursie! :)");
+    }
 
     const changeBackgroundButton = document.querySelector(".js-changeBackgroundButton");
     const removeEverythingButton = document.querySelector(".js-removeEverythingButton");
@@ -25,6 +27,8 @@
         changeBackgroundButton.addEventListener("click", onToggleBackgroundClick);
         showDescriptionButton.addEventListener("click", onToggleDescriptionClick);
         removeEverythingButton.addEventListener("click", onRemoveEverythingClick);
+
+        welcome();
     }
 
     init();
