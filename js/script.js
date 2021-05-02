@@ -17,12 +17,13 @@
         showDescriptionButton.innerText = hiddenParagraph.classList.contains("paragraph__hidden") ? "Pokaż opis" : "Ukryj opis";
     });
 
-    removeEverythingButton.addEventListener("click", () => {
+    const onRemoveEverythingClick = () => {
         body.remove();
-    });
+    };
 
     const init = () => {
         changeBackgroundButton.addEventListener("click", onToggleBackgroundClick);
+        removeEverythingButton.addEventListener("click", onRemoveEverythingClick);
     }
 
     init();
