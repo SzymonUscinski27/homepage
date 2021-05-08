@@ -4,11 +4,11 @@
     }
 
     const changeBackgroundButton = document.querySelector(".js-changeBackgroundButton");
-    const removeEverythingButton = document.querySelector(".js-removeEverythingButton");
+    const removeBodyButton = document.querySelector(".js-removeBodyButton");
     const showDescriptionButton = document.querySelector(".js-showDescriptionButton");
     const body = document.querySelector("body");
 
-    const onToggleBackgroundClick = () => {
+    const onChangeBackgroundClick = () => {
         body.classList.toggle("body__secondBackground");
         changeBackgroundButton.innerText = body.classList.contains("body__secondBackground") ? "Zmień tło na ciemniejsze" : "Zmień tło na jaśniejsze";
     };
@@ -19,14 +19,14 @@
         showDescriptionButton.innerText = hiddenParagraph.classList.contains("paragraph__hidden") ? "Pokaż opis" : "Ukryj opis";
     };
 
-    const onRemoveEverythingClick = () => {
+    const onRemoveBodyClick = () => {
         body.remove();
     };
 
     const init = () => {
-        changeBackgroundButton.addEventListener("click", onToggleBackgroundClick);
+        changeBackgroundButton.addEventListener("click", onChangeBackgroundClick);
         showDescriptionButton.addEventListener("click", onToggleDescriptionClick);
-        removeEverythingButton.addEventListener("click", onRemoveEverythingClick);
+        removeBodyButton.addEventListener("click", onRemoveBodyClick);
 
         welcome();
     }
